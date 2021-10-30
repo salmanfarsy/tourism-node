@@ -25,6 +25,6 @@ app.use('/api/auth', authRoute);
 app.use('/api/location', locationRoute);
 app.use('/api/bookings', bookingRoute);
 //port
-app.listen(5000 || process.env.PORT, ()=>{
+app.listen(process.env.PORT , ()=>{
     console.log('server running')
 })
